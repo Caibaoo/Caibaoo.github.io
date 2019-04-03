@@ -174,7 +174,7 @@ background-size:cover;
 -moz-background-size: cover;
 }
 .banner.three{
-background:url(../images/999.jpg) no-repeat 0px 0px;
+background:url(../images/caibao/img_2.jpg) no-repeat 100% 100%;
 background-size:cover;
 -webkit-background-size: cover;
 -o-background-size: cover;
@@ -424,7 +424,7 @@ left:46%;
 ul.social-slide li i{
 	width:70px;
 	height:74px;
-	background:url(../images/img-resources.png)no-repeat;
+	background:url(../images/img-resources.png) no-repeat;
 	display: inline-block;
 	margin:0px 15px;
 }
