@@ -25,7 +25,7 @@ padding:0;
 /*-- top-header --*/
 .header{
 	padding:14px 0;
-	background:#f65a5b;
+	background:#5CB85C;
 }
 .header-left{
 	float:left;
@@ -158,7 +158,7 @@ background-size:cover;
 min-height: 800px;
 }
 .banner.one{
-background:url(../images/888.jpg) no-repeat 0px 0px;
+background:url(../images/banner_1.jpg) no-repeat 100% 100%;
 background-size:cover;
 -webkit-background-size: cover;
 -o-background-size: cover;
@@ -166,7 +166,7 @@ background-size:cover;
 -moz-background-size: cover;
 }
 .banner.two{
-background:url(../images/777.jpg) no-repeat 0px 0px;
+background:url(../images/banner_2.jpg) no-repeat 100% 100%;
 background-size:cover;
 -webkit-background-size: cover;
 -o-background-size: cover;
@@ -193,7 +193,7 @@ margin: 0px 0 0px 0;
 }
 .logo  a h1{
 font-family: 'Slabo 27px', serif;
-color:#f65a5b;
+color:#5CB85C;
 font-size: 66px;
 text-decoration:none;
   margin-top: 42px;
@@ -531,7 +531,7 @@ border:none;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #f65a5b;
+  background: #5CB85C;
   margin: 0 auto;
   text-align: center;
   position: relative;	
@@ -587,7 +587,7 @@ border:none;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background:#f65a5b;
+  background:#5CB85C;
   position: absolute;
   top: 0;
   left: 0;
@@ -642,7 +642,7 @@ margin:0 0 20px 0;
 text-align:center;
 font-size:28px;
 font-family: 'Roboto Slab', serif;
-color: #f65a5b;
+color: #5CB85C;
 font-weight:bold;
 }
 .wel-info p{
@@ -724,7 +724,7 @@ padding:100px 0;
   text-align: center;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
 }
 .good-grids{
@@ -792,7 +792,7 @@ width:100%;
   text-align: center;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color:#f65a5b;
+  color:#5CB85C;
   font-weight: bold;
 
 }
@@ -817,7 +817,7 @@ width:100%;
 }
 .delicious-grid a{
 font-size:16px;
-color:#f65a5b;
+color:#5CB85C;
 text-decoration:none;
 }
 .delicious-grid a:hover{
@@ -834,7 +834,7 @@ padding:80px 0;
   font-family: 'Slabo 27px', serif;
 }
 .footer-grid h3 a {
-  color: #f65a5b;
+  color: #5CB85C;
   font-size: 45px;
   text-decoration: none;
 }
@@ -842,7 +842,7 @@ padding:80px 0;
 text-align:center;
   margin:0 0 15px 0;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-size: 20px;
   font-weight: bold;
 }
@@ -882,12 +882,12 @@ font-size:16px;
   padding-left: 36px;
 }
 .footer-grid ul li a:hover{
-  color: #f65a5b;
+  color: #5CB85C;
   }
 /*-- //footer-top --*/
 /*-- footer --*/
 .footer{
-background:#f65a5b;
+background:#5CB85C;
 padding:10px 0;
 }
 .footer-left{
@@ -1002,7 +1002,7 @@ border-radius:0%;
 .burst-36, .burst-36:before, .burst-36:after, .burst-36 div, .burst-36 div:before, .burst-36 div:after {
  height: 6.5em;
  width: 6.5em;
- background: #f65a5b;
+ background: #5CB85C;
 }
 .burst-36:before, .burst-36:after, .burst-36 div, .burst-36 div:before, .burst-36 div:after {
  content: "";
@@ -1083,7 +1083,7 @@ border:none;
   border-right: none;
 }
 .log form input[type=submit]:hover {
-  background: #f65a5b; 
+  background: #5CB85C; 
   transition: .5s all;
   -webkit-transition: .5s all;
   -o-transition: .5s all;
@@ -1092,7 +1092,7 @@ border:none;
   }
 .log p a{
 text-decoration:none;
-color:#f65a5b;
+color:#5CB85C;
 }
 .log p a:hover{
 color:#000;
@@ -1106,7 +1106,7 @@ color:#000;
   margin: 0 0 0px 0;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
 }
 .login-right p {
@@ -1126,7 +1126,7 @@ color:#000;
 }
 .log a{
 text-decoration:none;
-color:#f65a5b;
+color:#5CB85C;
 }
 .log a:hover{
 color: #000;
@@ -1155,7 +1155,7 @@ a.hvr-shutter-in-horizontal {
   position: relative;
  padding: 10px 18px;
 font-size: 14px; 
-  background: #f65a5b;
+  background: #5CB85C;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1200,7 +1200,7 @@ a.hvr-shutter-in-horizontal:hover:before,a.hvr-shutter-in-horizontal:focus:befor
   margin: 0 0 0px 0;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
   text-transform:uppercase;
 }
@@ -1222,7 +1222,7 @@ a.hvr-shutter-in-horizontal:hover:before,a.hvr-shutter-in-horizontal:focus:befor
 }
 .reg p a{
 text-decoration:none;
-color:#f65a5b;
+color:#5CB85C;
 }
 .reg p a:hover{
 color: #000;
@@ -1267,7 +1267,7 @@ width:47%
 }
 p.click a{
 display: inline-block;
-color:#f65a5b;
+color:#5CB85C;
 }
 p.click a:hover{
 color: #000;
@@ -1291,7 +1291,7 @@ border:none;
   border-right: none;
 }
 .reg form input[type=submit]:hover {
-  background:#f65a5b;
+  background:#5CB85C;
   transition: .5s all;
   -webkit-transition: .5s all;
   -o-transition: .5s all;
@@ -1352,7 +1352,7 @@ border:none;
 	font-size: 14px;
 	cursor: pointer;
 	font-weight: 500;
-	background:#f65a5b;
+	background:#5CB85C;
 	}
 .contact-form input[type=submit]:hover {
 	background:#204056;
@@ -1367,7 +1367,7 @@ text-align:center;
   margin: 0 0 20px 0;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -1393,7 +1393,7 @@ width:100%;
   text-align:center;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
   }
 .about-info p {
@@ -1450,7 +1450,7 @@ line-height:1.8em;
   text-align: center;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
 }
 .team-left{
@@ -1523,7 +1523,7 @@ text-align:center;
   margin: 0 0 20px 0;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
 }
 .testimonial p{
@@ -1554,7 +1554,7 @@ font-weight:normal;
   text-align: center;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
 }
 .show-grid [class^=col-] {
@@ -2013,12 +2013,12 @@ i.icon_6{
 }
 .badge-success{
   color: #fff;
-  border-color: #3fa243;
+  border-color: #5CB85C;
   background: #4CAF50;
 }
 .bg-green1{
   color: #fff;
-  border-color: #3fa243;
+  border-color: #5CB85C;
   background: #4CAF50;
 }
 h4.content-box-header{
@@ -2268,7 +2268,7 @@ padding:100px 0;
   text-align: center;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
 }
 .gallery-grids {
@@ -2317,7 +2317,7 @@ padding:100px 0;
   text-align: center;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
 }
 .our-menu-grids{
@@ -2357,7 +2357,7 @@ font-family: 'Roboto Slab', serif;
   margin: 20px 0;
   font-size: 22px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
 }
 
@@ -2386,7 +2386,7 @@ font-family: 'Roboto Slab', serif;
   font-size: 14px;
 }
 .pre-top a {
-  color:#f65a5b;
+  color:#5CB85C;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
@@ -2419,7 +2419,7 @@ margin-top:50px;
   text-align: center;
   font-size: 28px;
   font-family: 'Roboto Slab', serif;
-  color: #f65a5b;
+  color: #5CB85C;
   font-weight: bold;
 }
 .cart-item {
@@ -2453,7 +2453,7 @@ color:#000;
   font-weight: 600;
 }
 .cart-item-info h3 a {
-  color:#f65a5b;
+  color:#5CB85C;
 }
 .cart-item-info h3 span {
   display: block;
