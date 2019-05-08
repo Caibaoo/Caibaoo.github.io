@@ -1,0 +1,59 @@
+
+
+.cart_item_itemName a{
+	color: #5CB85C !important;
+	font-weight: bolder;
+}
+
+.qty{
+	margin-top: 15px !important;
+}
+
+.marginRight{
+	margin-right:15px;
+}
+.marginLeft{
+	margin-left:15px;
+}
+
+/*-----------------------------订单增减插件 start------------------------------*/
+.cart_item_addSubNum{
+	margin-right: 15px;
+}
+.cart_item_addSubNum .icon_plus{
+	margin-left: 5px;
+}
+.cart_item_addSubNum .icon_minus{
+	margin-right: 5px;
+}
+.cart_item_addSubNum .icon_plus,
+.cart_item_addSubNum .icon_minus{
+	width:22px;
+	height:22px;
+	text-align: center;
+	line-height: 18px;
+	font-size: 20px !important;
+	border: 1px solid rgba(0,100,255,0.8);
+	border-radius: 50%;
+	
+	transition: ease 0.3s all;
+}
+
+.cart_item_addSubNum .icon_plus:hover{
+	cursor: pointer;
+	background-color: rgba(0,100,255,0.8);
+	color: #fff;
+}
+.cart_item_addSubNum .icon_minus:hover{
+	cursor: pointer;
+	background-color: rgba(0,100,255,0.8);
+	color: #fff;
+}
+/*-----------------------------订单增减插件 end------------------------------*/
+
+.order_totalPrice{
+	margin-top: 20px;
+	margin-right: 15px;
+	text-align: right;
+	font-size: 20px;
+}
