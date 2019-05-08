@@ -1,5 +1,4 @@
 
-
 .cart_item_itemName a{
 	color: #5CB85C !important;
 	font-weight: bolder;
@@ -15,7 +14,12 @@
 .marginLeft{
 	margin-left:15px;
 }
-
+.marginTop{
+	margin-top:15px;
+}
+.marginBottom{
+	margin-bottom:15px;
+}
 /*-----------------------------订单增减插件 start------------------------------*/
 .cart_item_addSubNum{
 	margin-right: 15px;
@@ -50,7 +54,33 @@
 	color: #fff;
 }
 /*-----------------------------订单增减插件 end------------------------------*/
+.logoLink:hover{
+	background-color: none !important;
+	border-color: none !important;
+	text-decoration: none !important;
+}
+.logoText{
+	background-color: none !important;
+	border-color: none !important;
+	text-decoration: none !important;
+}
 
+.logoText:hover{
+	background-color: none !important;
+	border-color: none !important;
+	text-decoration: none !important;
+}
+
+.close{
+	color: #000;
+	opacity: 1;
+	font-size: 26px;
+	margin: 15px 10px 0 0; 
+}
+.close:hover{
+	color: #5CB85C;
+	opacity: 1;
+}
 .order_totalPrice{
 	margin-top: 20px;
 	margin-right: 15px;
