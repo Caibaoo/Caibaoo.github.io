@@ -1,5 +1,16 @@
 
-.cart_item_itemName a{
+/*下单按钮*/
+.new_order{
+	margin-top: 25px;
+	text-align: center;
+}
+.new_order a{
+	border-radius: 5px !important;
+}
+
+
+
+.cart_item_itemName{
 	color: #5CB85C !important;
 	font-weight: bolder;
 }

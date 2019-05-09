@@ -1,9 +1,30 @@
-	
-	//---------------------把导航条购物车去掉----------------------------------------
-	window.onload= function(){
-		var cart_total = document.getElementsByClassName("simpleCart_total")[0];
-		cart_total.innerText = "￥" + cart_total.innerText.substr(1)
-	}
+
+	//----------------页面初始化之基础初始化 start---------------------------
+		initHtml();
+		function initHtml(){
+			//把导航条购物车$去掉
+			window.onload= function(){
+				var cart_total = document.getElementsByClassName("nav_cart_total")[0];
+				cart_total.innerText = "￥" + cart_total.innerText.substr(1)
+			}
+			
+			//显示购物车金额和项目数
+		    var storage = window.localStorage;
+		    var cart_str = storage.getItem("orderList");
+		    var cart_Json = JSON.parse(cart_str);
+			if(cart_str != null){
+				$(".nav_cart_qty").text(cart_Json.length);
+			} else {
+				$(".nav_cart_qty").text("0");
+			}
+			
+			var cart_totalPrice = 0 
+			for(var i in cart_Json){
+				cart_totalPrice += parseInt(cart_Json[i].quantity) * parseInt(cart_Json[i].untiprice);
+			}
+			$(".nav_cart_total").text("￥" + cart_totalPrice + ".0");
+		}
+	//----------------页面初始化之基础初始化 end---------------------------
 
 	
 	//--------------------动态改变下单数量和总价 start----------------------------------
