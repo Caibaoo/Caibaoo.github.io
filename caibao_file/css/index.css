@@ -1,3 +1,36 @@
+/*logo设计*/
+.banner_logo{
+	text-align: center;
+	color: #3FA243 !important;
+	/*原色 粉色#f65a5b
+	第一次绿色 #3FA243
+	第二次绿色 5CB85C
+	*/
+	font-family: "楷体" !important;
+}
+
+/*logo下文字设计*/
+.banner_text{
+	color: #3FA243  !important;
+}
+
+.new_order a{
+	border-radius: 4px;
+}
 
 
-/*有效*/
+.login_section{
+	width: 100px;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff !important;
+}
+
+.login_section span a{
+	color: #fff !important;
+	margin: 0 5px;
+}
+.login_section span a:hover{
+	color: #fff !important;
+}

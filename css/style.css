@@ -53,11 +53,7 @@ ul {
 .login-section {
 	float: left;
 	padding: 0 0px 0 0;
-<<<<<<< HEAD
 	width: 30%;
-=======
-	width: 20%;
->>>>>>> a8324f020cce72ef226eccda8eeba9f8a54009fe
 	text-align: right;
 }
 
@@ -5053,3 +5049,41 @@ a.simpleCart_empty {
 
 
 /*-- responsive media queries --*/
+
+
+
+/*新增加覆盖*/
+
+.login_section{
+	width: 100px;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff !important;
+}
+
+.login_section span a{
+	color: #fff !important;
+	margin: 0 5px;
+}
+.login_section span a:hover{
+	color: #fff !important;
+}
+
+
+.logining_section{
+	display: none;
+	width: 150px;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff !important;
+}
+
+.logining_section span a{
+	color: #fff !important;
+	margin: 0 5px;
+}
+.logining_section span a:hover{
+	color: #fff !important;
+}

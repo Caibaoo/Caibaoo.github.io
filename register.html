@@ -45,12 +45,8 @@
 	<div class="container">
 		<div class="top-header">
 				<div class="header-left">
-					<div class="login-section">
-						<ul class="nav_btn_login">
-							<li><a href="login.html">登录</a>  </li> 
-								|
-							<li><a href="register.html">注册</a> </li>
-						</ul>
+					<div class="login_section">
+						<span><a href="login.html">登录</a></span>|<span><a href="register.html">注册</a></span>
 					</div>
 				</div>
 				<!-- start search-->
@@ -118,7 +114,7 @@
 								<a href="index.html">
 									<div class="burst-36 ">
 									   <div>
-											<div><span><img src="images/logo.png" alt=""/></span></div>
+											<div><span><img src="images/caibao/logo_1_3FA243.png" alt=""/></span></div>
 									   </div>
 									</div>
 									<h1 style="text-align: center;">菜宝</h1>
@@ -141,34 +137,34 @@
 			<div class="reg-form">
 				<div class="reg">
 					 <p>欢迎，请输入以下资料继续。</p>
-					 <p>如果您以前在我们这里注册过， <a href="#">请点击这里</a></p>
+					 <p>如果您以前在我们这里注册过， <a href="javascript:">请点击这里</a></p>
 					 <form>
 						 <ul>
-							 <li class="text-info">账户名: </li>
-							 <li><input type="text" value=""></li>
+							 <li class="text-info">账户: </li>
+							 <li><input class="input_register" type="text" value=""></li>
 						 </ul>
 						 <!--<ul>
 							 <li class="text-info">Last Name: </li>
 							 <li><input type="text" value=""></li>
 						 </ul>				 -->
 						<ul>
-							 <li class="text-info">邮箱: </li>
-							 <li><input type="text" value=""></li>
+							 <li class="text-info">用户名: </li>
+							 <li><input class="input_register" type="text" value=""></li>
 						 </ul>
 						 <ul>
 							 <li class="text-info">密码: </li>
-							 <li><input type="password" value=""></li>
+							 <li><input class="input_register" type="password" value=""></li>
 						 </ul>
 						 <ul>
 							 <li class="text-info">密码确认:</li>
-							 <li><input type="password" value=""></li>
+							 <li><input class="input_register" type="password" value=""></li>
 						 </ul>
 						 <ul>
 							 <li class="text-info">手机号码:</li>
-							 <li><input type="text" value=""></li>
+							 <li><input class="input_register" type="text" value=""></li>
 						 </ul>						
-						 <input type="submit" value="马上注册">
-						 <p class="click">点击此按钮，即表示您同意我的<a href="#">保单条款。</a></p> 
+						 <input class="btn_register" type="submit" value="马上注册">
+						 <p class="click">点击此按钮，即表示您同意我的<a href="javascript:">保单条款。</a></p> 
 					 </form>
 				 </div>
 			</div>
@@ -243,19 +239,15 @@
 <!-- smooth scrolling -->
 	<script type="text/javascript">
 		$(document).ready(function() {
-		/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			};
-		*/								
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
+
+
+
+	<script src = "caibao_file/js/register_ajax.js"></script>
 
 </body>
 </html>

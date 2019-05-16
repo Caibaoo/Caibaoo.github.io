@@ -11,12 +11,22 @@
 	//----------------页面初始化之基础初始化 start---------------------------
 		initHtml();
 		function initHtml(){
+			//导航条用户是否登陆显示
+			var userinfo = getLocalStorageUserInfo();
+			if(userinfo == null){
+				$(".login_section").css("display", "block");
+				$(".logining_section").css("display", "none");
+			} else {
+				$(".login_section").css("display", "none");
+				$(".logining_section").css("display", "block");
+				$(".logining_section_name").text(userinfo[0].username);
+			}
+			
 			//把导航条购物车$去掉
 			window.onload= function(){
 				var cart_total = document.getElementsByClassName("nav_cart_total")[0];
 				cart_total.innerText = "￥" + cart_total.innerText.substr(1)
 			}
-			
 			//显示购物车金额和项目数
 		    var storage = window.localStorage;
 		    var cart_str = storage.getItem("orderList");
@@ -29,10 +39,11 @@
 			
 			var cart_totalPrice = 0 
 			for(var i in cart_Json){
-				cart_totalPrice += parseInt(cart_Json[i].quantity) * parseInt(cart_Json[i].untiprice);
-				
+				cart_totalPrice += parseInt(cart_Json[i].vegnum) * parseInt(cart_Json[i].untiprice);
 			}
+			
 			$(".nav_cart_total").text("￥" + cart_totalPrice + ".0");
+			
 		}
 	//----------------页面初始化之基础初始化 end---------------------------
 	
@@ -86,19 +97,12 @@
 			}
 		});
 		
-		
-		var list = [
-			{ vegid: "v190001", name: "金枪鱼排", vegnum: "4", untiprice: "76"},
-			{ vegid: "v190002", name: "草莓", vegnum: "2", untiprice: "13"},
-		]
-		
-		var storage = window.localStorage;
-	    var List_string = storage.getItem("orderList");
-	    var List_Json = JSON.parse(List_string);
-	    
 		//总价 总项数 	 商品代号及对应购买数量----数组形式
 		//为此需要做一个卖品的ID表，用来生成orderArray
 		function Ajax(list_in, totalprice_in){
+			console.log(list_in);
+			console.log(totalprice_in);
+			
 			$.ajax(
 				{
 					url: 'http://101.132.184.238:81/v0/order',
@@ -222,9 +226,9 @@
 	    	var orderList_Json = JSON.parse(orderList_string);
 		    //console.log(orderList_Json);
 		    for(var i in orderList_Json){
-		    	$(".img-responsive")[i].src = id_to_url(orderList_Json[i].id);
-		    	$(".cart_item_itemName")[i].innerText = orderList_Json[i].name;
-		    	$(".icon_operate_target")[i].innerText = orderList_Json[i].quantity;
+		    	$(".img-responsive")[i].src = id_to_url(orderList_Json[i].vegid);
+		    	$(".cart_item_itemName")[i].innerText = orderList_Json[i].vegname;
+		    	$(".icon_operate_target")[i].innerText = orderList_Json[i].vegnum;
 		    	$(".cart_item_unitPrice")[i].innerText = orderList_Json[i].untiprice;
 		    	
 		    	//展示框不够了  退出
@@ -317,4 +321,14 @@
 			default: imageUrl = "images/caibao/img_1.jpg";
 		}
 		return imageUrl;
+	}
+
+
+//-----------------常用的函数封装--------------------------
+	function getLocalStorageUserInfo(){
+		var storage = window.localStorage;
+		var userInfo_str = storage.getItem("userInfo");
+		var userInfo_Json = JSON.parse(userInfo_str);
+		
+		return userInfo_Json;
 	}
