@@ -11,3 +11,5 @@
 ### 开发环境
 我们使用windows10作为开发操作系统，CentOS Linux 7.6.1810作为菜宝的服务器。前端使用HTML、CSS、JS结合Vue.js开发，后端采用Node.js，数据库使用开源的MySQL。编程工具有VS Code、Hbuilder、Web Storm和PyCharm等等。
 
+### 开发团队
+爆肝无休。
