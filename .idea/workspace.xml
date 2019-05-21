@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2970d24-c7c2-4948-ac84-5975682c890d" name="Default Changelist" comment="Merge branch 'master' of https://github.com/shanghaixuhuan/Caibao&#10;&#10;# Conflicts:&#10;#&#9;checkout.html&#10;#&#9;css/style.css&#10;#&#9;index.html&#10;#&#9;orders.html&#10;#&#9;备忘录.txt">
-      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/dbConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/error.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/layout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cpts_273_nt.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/备忘录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/备忘录.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caibao/img_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caibao/img_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/typography.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +26,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+            <state relative-caret-position="209">
+              <caret line="437" column="33" lean-forward="true" selection-start-line="412" selection-end-line="445" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/typography.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="899" column="1" selection-start-line="899" selection-start-column="1" selection-end-line="899" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -55,10 +79,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/typography.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="555" />
     <option name="y" value="285" />
     <option name="width" value="1670" />
@@ -101,6 +126,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.typography.html">
+    <configuration name="gallery.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Caibaoo.github.io/gallery.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="typography.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Caibaoo.github.io/typography.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.typography.html" />
+        <item itemvalue="JavaScript Debug.gallery.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -114,17 +153,17 @@
       <workItem from="1557375657308" duration="81000" />
       <workItem from="1557376068727" duration="510000" />
       <workItem from="1557376715177" duration="601000" />
+      <workItem from="1558404135263" duration="2976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1192000" />
+    <option name="totallyTimeSpent" value="4168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21400264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -147,10 +186,39 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+        <state relative-caret-position="209">
+          <caret line="437" column="33" lean-forward="true" selection-start-line="412" selection-end-line="445" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="899" column="1" selection-start-line="899" selection-start-column="1" selection-end-line="899" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typography.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
