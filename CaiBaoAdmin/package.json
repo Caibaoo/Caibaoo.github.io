@@ -12,7 +12,7 @@
     "chartist": "0.11.0",
     "element-ui": "^2.6.1",
     "moment": "^2.24.0",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.17",
     "vue-chartist": "^2.1.2",
